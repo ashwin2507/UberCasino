@@ -1,6 +1,6 @@
 # UberCasino
 
-DO NOT USE. YET. More changes to come sunday.
+
 
 
 To build:
