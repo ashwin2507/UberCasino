@@ -16,7 +16,7 @@ Set this in the makefile and recompile
 
 Requirements:
 This is a basic, minimal implementation of the blackjack game.
-The players are stupid, and stop at 2 cards, the dealer has
+The players are test cases, and stop at 2 cards, the dealer has
 a rigged deck and always deals a 10.
 The exact requirements for the class assignment have not been implemented, but it should be close enough to get you started.
 
@@ -46,6 +46,6 @@ At that point he starts a 20 second timer, and waits for others.  When a Player 
 
 The timer expires, the dealer then starts to deal the cards. First, he deals himself two cards, one face down. For each player, he adds a card, increments the player idx, and waits for the player to respond with a Player record describing what it wants to do.
 
-After all players have been dealt two cards, the dealer turns over his card, and the game exits.
+After all players have been dealt two cards, the dealer turns over his card declaring the winner, and the game exits.
 
 
